@@ -3,6 +3,7 @@ package com.sheliming.spring.my.utils;
 public class BeanDefined {
     private String beanId;
     private String classPath;
+    private String scope;
 
     public String getBeanId() {
         return beanId;
@@ -18,5 +19,13 @@ public class BeanDefined {
 
     public void setClassPath(String classPath) {
         this.classPath = classPath;
+    }
+
+    public String getScope() {
+        return scope;
+    }
+
+    public void setScope(String scope) {
+        this.scope = scope;
     }
 }
