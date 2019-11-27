@@ -1,4 +1,4 @@
-package com.sheliming.spring.demo.aop.service;
+package com.sheliming.spring.demo.aop_xml_anno.service;
 
 public interface UserService {
 

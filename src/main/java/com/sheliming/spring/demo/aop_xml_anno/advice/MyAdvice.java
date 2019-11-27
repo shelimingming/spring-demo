@@ -1,4 +1,4 @@
-package com.sheliming.spring.demo.aop.advice;
+package com.sheliming.spring.demo.aop_xml_anno.advice;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 
