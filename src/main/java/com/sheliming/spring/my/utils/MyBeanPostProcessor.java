@@ -1,6 +1,6 @@
 package com.sheliming.spring.my.utils;
 
-import com.sheliming.spring.demo.ioc.serviceImpl.ISomeService;
+import com.sheliming.spring.demo.ioc_xml.serviceImpl.ISomeService;
 import org.springframework.beans.BeansException;
 
 import java.lang.reflect.InvocationHandler;

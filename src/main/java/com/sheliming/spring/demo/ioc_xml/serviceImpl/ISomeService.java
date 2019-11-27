@@ -1,6 +1,6 @@
-package com.sheliming.spring.demo.ioc.serviceImpl;
+package com.sheliming.spring.demo.ioc_xml.serviceImpl;
 
-import com.sheliming.spring.demo.ioc.service.BaseService;
+import com.sheliming.spring.demo.ioc_xml.service.BaseService;
 
 public class ISomeService implements BaseService {
 

@@ -1,6 +1,6 @@
-package com.sheliming.spring.demo.ioc.util;
+package com.sheliming.spring.demo.ioc_xml.util;
 
-import com.sheliming.spring.demo.ioc.serviceImpl.ISomeService;
+import com.sheliming.spring.demo.ioc_xml.serviceImpl.ISomeService;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 

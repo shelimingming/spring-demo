@@ -1,4 +1,4 @@
-package com.sheliming.spring.demo.ioc.beans;
+package com.sheliming.spring.demo.ioc_xml.beans;
 
 public class Student {
 	

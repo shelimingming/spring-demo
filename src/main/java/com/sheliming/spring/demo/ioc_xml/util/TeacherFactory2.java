@@ -1,6 +1,6 @@
-package com.sheliming.spring.demo.ioc.util;
+package com.sheliming.spring.demo.ioc_xml.util;
 
-import com.sheliming.spring.demo.ioc.beans.Teacher;
+import com.sheliming.spring.demo.ioc_xml.beans.Teacher;
 
 public class TeacherFactory2 {
 	 public Teacher createTeacher(){
