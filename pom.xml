@@ -40,12 +40,6 @@
             <version>5.0.7.RELEASE</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
-            <version>5.0.7.RELEASE</version>
-        </dependency>
-
         <!-- 基于AspectJ的aop依赖 -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -57,7 +51,6 @@
             <artifactId>aopalliance</artifactId>
             <version>1.0</version>
         </dependency>
-
 
         <!-- spring 单元测试组件包 -->
         <dependency>
@@ -72,6 +65,33 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+
+        <!-- spring 事务管理和JDBC依赖包 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>5.0.7.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.0.7.RELEASE</version>
+        </dependency>
+
+        <!-- mysql数据库驱动包 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.13</version>
+        </dependency>
+
+        <!-- dbcp连接池的依赖包 -->
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>1.4</version>
+        </dependency>
+
     </dependencies>
 
 </project>
