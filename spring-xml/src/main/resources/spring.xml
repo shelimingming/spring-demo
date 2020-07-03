@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="helloService" class="com.sheliming.service.HelloServiceImpl">
+    </bean>
+
+    <bean id="student" class="com.sheliming.domain.Student">
+        <property name="age" value="10"/>
+        <property name="sname" value="张三"/>
+        <property name="teacher" ref="teacher"/>
+    </bean>
+
+    <bean id="teacher" class="com.sheliming.domain.Teacher">
+        <property name="tname" value="王老师"/>
+    </bean>
+
+</beans>
