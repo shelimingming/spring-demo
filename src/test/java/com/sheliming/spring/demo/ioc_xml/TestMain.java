@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestMain {
 
 	public static void main(String[] args) {
-		ApplicationContext factory = new ClassPathXmlApplicationContext("spring_ioc.xml");
+		ApplicationContext factory = new ClassPathXmlApplicationContext("spring_ioc_xml.xml");
 		BaseService serviceObj = (BaseService) factory.getBean("isomeService");
 		System.out.println(serviceObj.doSome());
 
